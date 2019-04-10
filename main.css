@@ -1,0 +1,40 @@
+body {
+    background: url('https://boomerang-digital.com/wp-content/uploads/2017/11/web1.png');
+    background-repeat: no-repeat;
+}
+
+.footer {
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+}
+
+input[type=text],[type=email] {
+  border: none;
+    border-radius: 5px;
+    background-color: transparent;
+  border-bottom: 2px solid lightgray;
+}
+input[type=text]:hover {
+    background: #F1F1F1;
+    opacity: 0.2;
+    
+}
+
+input[type=email]:hover {
+    background: #F1F1F1;
+    opacity: 0.2;
+    
+}
+
+textarea {
+    position: relative;
+    border: none;
+    background-color: transparent;
+    border: 2px solid lightgray;
+    margin: 5px;
+}
