@@ -1,10 +1,16 @@
 body {
     background: url('https://boomerang-digital.com/wp-content/uploads/2017/11/web1.png');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
+    width: 100%;
+    height:100%;
+    box-sizing: border-box;
+}
+.footer1 {
+  padding: 30px;
 }
 
 .footer {
-    position: fixed;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -13,28 +19,103 @@ body {
   text-align: center;
 }
 
-input[type=text],[type=email] {
-  border: none;
+
+input[type=text] {
+    border: none;
     border-radius: 5px;
     background-color: transparent;
-  border-bottom: 2px solid lightgray;
-}
-input[type=text]:hover {
-    background: #F1F1F1;
-    opacity: 0.2;
+    border-bottom: 2px solid lightgray;    
+    color: white;
+    font-size: 30px;
+    margin-top: 50px;
+    outline: none;
     
 }
 
-input[type=email]:hover {
-    background: #F1F1F1;
-    opacity: 0.2;
+input[type=email] {
+    
+    background-color: transparent;
+    color: white;   
+    font-size: 30px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 2px solid lightgray;
     
 }
 
 textarea {
-    position: relative;
-    border: none;
-    background-color: transparent;
-    border: 2px solid lightgray;
-    margin: 5px;
+  width: 60%;
+  background-color: transparent;
+  color: white;
+  width: 700px;
+  padding:5px;
+  font-size: 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+  border: 2px solid lightgray;
+}
+
+
+
+
+.form-control {
+    transition: .5s ease;
+}
+
+.work {
+  padding-top: 60px;
+  margin-top: -60px;
+}
+
+.work .work-header {
+  margin-top: 50px;
+  color: white;
+  font-weight: normal;
+  text-align: center;
+}
+
+.project {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  overflow: hidden;
+  border: 2px solid white;
+  border-radius: 5px;
+  height: 220px;
+  width: 280px;
+  margin: 40px 100px;
+  /*   background: url("https://res.cloudinary.com/dck40m3wf/image/upload/v1455459914/Portfolio/fancy-floral-pattern-384.jpg") repeat; */
+}
+
+.project-pic {
+  width: 100%;
+  height: 180px;
+  border-bottom: 2px solid white;
+}
+
+  
+}
+
+.project-title {
+  font-weight: bold;
+  
+}
+.project-title:hover{
+  background-color: white;
+  animation-delay: 0.1s;
+}
+
+
+
+@media screen and (mix-width: 768px){
+.col-md-6 {
+    
+    flex: 0 0 30%;
+    max-width: 50%;
+}
+  .col-md-12 {
+    font-size: 20px;
+  }
+
 }
