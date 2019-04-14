@@ -4,66 +4,76 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="main.css">
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-	
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="animate.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
     <title> Jay Bhadreshwara </title>
 </head>
 
 	<body>
                 
-        
         <!-- Navbar links -->
         
-        <nav class="navbar navbar-expand-sm bg-light justify-content-center navbar-dark fixed-top" style="background: transparent !important; font-weight: bold; color: white; margin-top: 430px;">
+        <nav class="navbar navbar-expand-sm bg-light justify-content-center navbar-dark fixed-top" style="background: transparent !important; font-weight: bold; color: white;">
             <!-- Toggler/collapsibe Button -->
         
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNavbar" aria-expanded="false" aria-controls="collapseNavbar">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse justify-content-center navbar-collapse" id="collapseNavbar" style=" font-size: 18px;">
-            <ul class="navbar-nav" style="font-size: 34px;">
-                <li class="nav-item" style="padding-left: 18px;">
+                <ul class="navbar-nav" style="font-size: 18px;">
+                     <li class="nav-item" style="padding-left: 18px;">
                     <a class="nav-link text-light" href="index.html">Home</a>
-                </li>
-                <li class="nav-item" style="padding-left: 18px;">
+                    </li>
+                     <li class="nav-item" style="padding-left: 18px;">
                     <a class="nav-link text-light" href="work.html">Work</a>
-                </li>
-                <li class="nav-item" style="padding-left: 18px;">
+                    </li>
+                    <li class="nav-item" style="padding-left: 18px;">
                     <a class="nav-link text-light" href="about.html">About</a>
-                </li>
-                <li class="nav-item" style="padding-left: 18px;">
+                     </li>
+                     <li class="nav-item" style="padding-left: 18px;">
                     <a class="nav-link text-light" href="contact.html">Contact</a>
-                </li>
-            </ul>
+                    </li>
+                </ul>
             </div>
         </nav>
         <br><br>
+
         
         <section id="home">
-            <div class="container-fluid">
+            <div class="container fade-in">
                 <div class="col-md-12">
-                    <h1 class="text-center display-3 text-light" style="margin-top: 160px;">Jay Bhadreshwara</h1>
+                    <h1 class="text-center display-3 text-light" style="position: relative; top:170px;">Jay Bhadreshwara</h1>
                 </div> 
-                <div class="col-md-12">
-                    <p class="text-center text-light" style="font-size: 20px; margin-top: 10px;">Think | Imagine | Design</p>
+                <div class="col-md-12 ">
+                    <p class="text-center text-light" style="font-size: 20px; position: relative; top:180px;">Think | Imagine | Design</p>
                 </div>
                 
             
             </div>
         </section>
         
-        <div class="footer">
-                <i class="fa fa-twitter" aria-hidden="true" style="font-size: 26px;"></i>
-                <i class="fa fa-github" aria-hidden="true" style="font-size: 26px;"></i>
-                <i class="fa fa-codepen" aria-hidden="true" style="font-size: 26px;"></i>
-                
-            </div>
-        
-        
 
-</body>
+        <div class="col-md-12 col-sm-12 footer text-center" style="position: fixed; background-color: white;">
+            <span class="footer1">
+                <a href="https://twitter.com/iamBhadreshwara"><i class="icon fab fa-twitter" aria-hidden="true" style="font-size: 30px; margin: 10px;"></i></a>          
+            
+            </span>
+            <span class="footer1">
+                <a href="https://github.com/Bhadreshwara"><i class="icon fab fa-github" aria-hidden="true" style="font-size: 30px; margin: 10px"></i></a>      
+           
+            </span>
+            <span class="footer1">
+             <a href="https://codepen.io/iambhadreshwara/"><i class="icon fab fa-codepen" aria-hidden="true" style="font-size: 30px; margin: 10px"></i></a>
+            </span>
+        </div>
+        
+        
+    </body>
+
 </html>
