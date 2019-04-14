@@ -43,26 +43,34 @@
         </nav>
         <br><br>
         
+        <script>
+            var nameValue = document.getElementById("name").value;
+            var emailValue = document.getElementById("email").value;
+            var noteValue = document.getElementById("note").value;
+                function myFunction() {
+                    document.getElementById("myForm").submit();
+                }
+        </script>
         
         <section id="contact">
             <div class="container fluid">
-               <form class="col-md-12">
+               <form class="col-md-12" id="myform">
                    <div class="form-group">
-                       <input type="text" placeholder="Name" class="form-control col-md-10 col-sm-6" id="name" style="background: transparent; color:white;">
+                       <input type="text"  placeholder="Name" class="form-control col-md-10 col-sm-6" id="name" style="background: transparent; color:white;">
                     </div>
 
                    
                    <div class="form-group">
-                      <input type="email" placeholder="john@example.com" class="form-control col-md-10 col-sm-6" id="email" style="background: transparent; color:white;">
+                      <input type="email"  placeholder="john@example.com" class="form-control col-md-10 col-sm-6" id="email" style="background: transparent; color:white;">
                       </div><br>
                    
                     <div class="form-group">
-                            <textarea class="col-md-10 col-sm-6" rows="5" placeholder="Leave a Note..." style="font-size: 30px;" ></textarea><br>
+                            <textarea class="col-md-10 col-sm-6" id="note"  rows="5" placeholder="Leave a Note..." style="font-size: 30px;" ></textarea><br>
                     </div>
                    
 
                    
-                   <button class="btn btn-info" style="font-size:20px; padding-left: 10px;">Post</button>
+                   <button class="btn btn-info" onclick="myFunction()" style="font-size:20px; padding-left: 10px;">Post</button>
 
                </form> 
                              
