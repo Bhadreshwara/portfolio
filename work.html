@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="animate.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -15,31 +16,85 @@
 
 	<body>
                 
-        
         <!-- Navbar links -->
         
         <nav class="navbar navbar-expand-sm bg-light justify-content-center navbar-light fixed-top" style="background: #ffffff !important; border-bottom: 2px solid white; font-weight: bold; color: black;">
-            <!-- Toggler/collapsibe Button -->
+                <!-- Toggler/collapsibe Button -->
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse justify-content-center navbar-collapse" id="collapseNavbar" style=" font-size: 18px;">
+                <ul class="navbar-nav" style="font-size: 18px;">
+                    <li class="nav-item" style="padding-left: 18px;">
+                        <a class="nav-link text-black" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item" style="padding-left: 18px;">
+                        <a class="nav-link text-black" href="work.html">Work</a>
+                    </li>
+                    <li class="nav-item" style="padding-left: 18px;">
+                        <a class="nav-link text-black" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item" style="padding-left: 18px;">
+                        <a class="nav-link text-black" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                </div>
+            </nav>
+            <br><br>
+           
+
+
+           <div id="projects" class="col-md-12 col-sm-8 work text-center">
+            
+            <h2 class="work-header text-center" style="text-align: center;">These are some of my projects...</h2>
+         <div class="text-center">
+            <a href="https://codepen.io/iambhadreshwara/full/LaaXRK" target="_blank" class="project project-title animated zoomIn" target="_blank" style="text-decoration:none; padding:5px;">
+            <img class="project-pic" src="img/Thor.png" alt="project">
+                <div class="project-title">Thor, Marvel (HTML+CSS)</div>
+            </a>
+            
+            <a href="https://codepen.io/iambhadreshwara/full/RdOgWb" target="_blank" class="project project-title animated zoomIn" style="text-decoration:none; padding:5px;">
+            <img class="project-pic" src="img/survey%20form.png" alt="project">
+                <div class="project-title">Survey Form</div>
+            </a>
+            
+             <a href="https://codepen.io/iambhadreshwara/full/YgbeOj" target="_blank" class="project project-title animated zoomIn" style="text-decoration:none; padding:5px;">
+            <img class="project-pic" src="img/javascript.png" alt="project">
+                <div class="project-title">Documentation Page</div>
+            </a>
+            
+            <a href="https://codepen.io/iambhadreshwara/full/drrvVV" target="_blank" class="project project-title animated zoomIn" style="text-decoration:none; padding:5px;">
+            <img class="project-pic" src="img/diamond.png" alt="project">
+                <div class="project-title" style="color: ">A Diamond! (HTML+CSS)</div>
+            </a>
+            
+            <a href="https://codepen.io/iambhadreshwara/full/ywwVbM" target="_blank" class="project project-title animated zoomIn" style="text-decoration:none; padding:5px;">
+            <img class="project-pic" src="img/bobby%20fischer.png" alt="project">
+                <div class="project-title">Tribute Page</div>
+            </a>
+           </div> 
+        </div>
+        <hr>
+        <div class="footer text-center" style="position: fixed; background-color: white;">
+            <span class="footer1">
+                <a href="https://twitter.com/iamBhadreshwara"><i class="icon fab fa-twitter" aria-hidden="true" style="font-size: 30px; margin: 10px;"></i></a>          
+            
+            </span>
+            <span class="footer1">
+                <a href="https://github.com/Bhadreshwara"><i class="icon fab fa-github" aria-hidden="true" style="font-size: 30px; margin: 10px"></i></a>      
+           
+            </span>
+            <span class="footer1">
+             <a href="https://codepen.io/iambhadreshwara/"><i class="icon fab fa-codepen" aria-hidden="true" style="font-size: 30px; margin: 10px"></i></a>
+            </span>
+        </div>
         
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-            <div class="collapse justify-content-center navbar-collapse" id="collapseNavbar" style=" font-size: 18px;">
-            <ul class="navbar-nav" style="font-size: 18px;">
-                <li class="nav-item" style="padding-left: 18px;">
-                    <a class="nav-link text-black" href="index.html">Home</a>
-                </li>
-                <li class="nav-item" style="padding-left: 18px;">
-                    <a class="nav-link text-black" href="work.html">Work</a>
-                </li>
-                <li class="nav-item" style="padding-left: 18px;">
-                    <a class="nav-link text-black" href="about.html">About</a>
-                </li>
-                <li class="nav-item" style="padding-left: 18px;">
-                    <a class="nav-link text-black" href="contact.html">Contact</a>
-                </li>
-            </ul>
-            </div>
-        </nav>
-        <br><br>
+        </body>
+        </html>
+
+        
+        
+        
+        
         
